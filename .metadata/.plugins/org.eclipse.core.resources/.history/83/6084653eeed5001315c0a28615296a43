@@ -1,0 +1,11 @@
+package com.lapsap.android_learning;
+
+public class activitiesLinker {
+
+	//dont forget to add to manifest
+	public static String activities[] = {
+		"com.lapsap.android_learning._1_dragAndDrop.MainActivity",
+		
+		};
+	
+}
