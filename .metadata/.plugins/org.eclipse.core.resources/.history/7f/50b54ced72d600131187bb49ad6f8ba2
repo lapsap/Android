@@ -1,4 +1,6 @@
-package com.example.touch;
+package com.lapsap.android_learning._1_dragAndDrop;
+
+import com.lapsap.android_learning.R;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -9,7 +11,7 @@ import android.view.View;
 
 public class picture_move_logics extends View {
 
-	int chosenPic = R.drawable.bird;	//ur pic
+	int chosenPic = R.drawable.ic_launcher;	//ur pic
 	
 	Bitmap myBitmap = BitmapFactory.decodeResource(getResources(), chosenPic);	//setting up the bitmap
 	float bitmapPositionX, bitmapPositionY, oneFingerX, oneFingerY; // moving

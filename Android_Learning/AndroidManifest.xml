@@ -25,8 +25,8 @@
         
       <activity android:name="com.lapsap.android_learning._1_dragAndDrop.MainActivity" />
       <activity android:name="com.lapsap.android_learning._2_OpenGLSquareFollowTouch.MainActivity" />
-
-        
+      <activity android:name="com.lapsap.android_learning._3_OpenGLStampSquare.MainActivity" android:screenOrientation="portrait"   />
+             
     </application>
 
 </manifest>

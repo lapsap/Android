@@ -6,6 +6,7 @@ public class activitiesLinker {
 	public static String activities[] = {
 		"1_dragAndDrop.MainActivity",
 		"2_OpenGLSquareFollowTouch.MainActivity",
+		"3_OpenGLStampSquare.MainActivity",
 		
 		};
 	

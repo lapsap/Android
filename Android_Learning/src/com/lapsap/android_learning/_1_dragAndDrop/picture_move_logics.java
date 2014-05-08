@@ -83,10 +83,10 @@ public class picture_move_logics extends View {
 							//few rules, so that the pic dont disappear 
 							try
 								{
-									if (zoomingScaleWidth + cal > 200 && zoomingScaleHeight + cal > 200 && zoomingScaleWidth + cal < 2500 && zoomingScaleHeight + cal <2500 )
+									if (zoomingScaleWidth + cal > 200 && zoomingScaleHeight + cal > 200 && zoomingScaleWidth + cal < 2500 && zoomingScaleHeight + cal <2500 )	//set maximum size, cause it will crash if it's too big.memory mapping stuff
 										{
 											myBitmap = BitmapFactory.decodeResource(getResources(), chosenPic);
-											myBitmap = Bitmap.createScaledBitmap(myBitmap, zoomingScaleWidth + cal, zoomingScaleHeight + cal, false);
+											myBitmap = Bitmap.createScaledBitmap(myBitmap, zoomingScaleWidth + cal, zoomingScaleHeight + cal, false);	//set to true if u want the pic resolution to be better,but it will waste alot more RAM
 										} else
 										cal = 0;
 								} catch (Exception e)
