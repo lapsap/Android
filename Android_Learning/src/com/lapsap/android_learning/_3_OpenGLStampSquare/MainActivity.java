@@ -10,6 +10,7 @@ import android.util.DisplayMetrics;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -20,6 +21,8 @@ public class MainActivity extends Activity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		//hints
+		Toast.makeText(this, "Lay down 3 fingers to clear screen.", Toast.LENGTH_LONG).show();
 		//get heigh and width
 		DisplayMetrics dimension = new DisplayMetrics();
 		getWindowManager().getDefaultDisplay().getMetrics(dimension);

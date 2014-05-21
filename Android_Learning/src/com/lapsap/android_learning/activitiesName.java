@@ -6,7 +6,7 @@ public class activitiesName {
 		"Drag and Resize Image",
 		"OpenGL create square and follow touch",
 		"OpenGL Stamp Square each touch",
-		
+		"OpenGL Random Color Stamp"
 		};
 
 

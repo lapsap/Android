@@ -26,7 +26,7 @@
       <activity android:name="com.lapsap.android_learning._1_dragAndDrop.MainActivity" />
       <activity android:name="com.lapsap.android_learning._2_OpenGLSquareFollowTouch.MainActivity" />
       <activity android:name="com.lapsap.android_learning._3_OpenGLStampSquare.MainActivity" android:screenOrientation="portrait"   />
-             
+      <activity android:name="com.lapsap.android_learning._4_OpenGLRandomColorStamp.MainActivity" />
     </application>
 
 </manifest>

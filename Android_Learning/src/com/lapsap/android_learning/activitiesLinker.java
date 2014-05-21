@@ -7,7 +7,7 @@ public class activitiesLinker {
 		"1_dragAndDrop.MainActivity",
 		"2_OpenGLSquareFollowTouch.MainActivity",
 		"3_OpenGLStampSquare.MainActivity",
-		
+		"4_OpenGLRandomColorStamp.MainActivity",
 		};
 	
 }

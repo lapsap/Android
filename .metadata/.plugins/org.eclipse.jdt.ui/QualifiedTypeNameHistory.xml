@@ -6,4 +6,5 @@
 <fullyQualifiedTypeName name="android.R.drawable"/>
 <fullyQualifiedTypeName name="com.lapsap.android_learning.R"/>
 <fullyQualifiedTypeName name="com.lapsap.android_learning.R.layout"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
 </qualifiedTypeNameHistroy>
